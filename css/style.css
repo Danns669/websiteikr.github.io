@@ -90,9 +90,6 @@ body {
   transition: 0.1s ease-in-out;
 }
 
-.navbar .navbar-nav .content-nav:hover::after {
-}
-
 /* Navbar Dropdown */
 
 .navbar .navbar-nav ul {
@@ -345,8 +342,9 @@ h3 {
   height: 120px;
   /* overflow: hidden; */
   float: left;
-  margin: 10px 11px;
+  margin: 20px 11px;
   position: relative;
+  list-style: none;
 }
 .gallery li,
 .gallery li a img,
@@ -412,7 +410,7 @@ h3 {
   left: 65.8%;
   margin-left: -20px;
   color: rgba(224, 226, 219);
-  weight: bold;
+  font-weight: bold;
   text-decoration: none;
   background-color: rgba(0, 0, 0, 0.5);
   line-height: 14px;
@@ -450,6 +448,13 @@ h3 {
     opacity: 1;
     margin-top: 0px;
   }
+}
+
+p {
+  z-index: 9999;
+  color: #000;
+  text-align: center;
+  padding: 3px;
 }
 
 /* Clear Float */
